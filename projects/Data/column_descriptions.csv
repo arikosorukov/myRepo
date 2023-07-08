@@ -1,0 +1,30 @@
+Column name,Units,Description
+Value,integer,value corresponding to land cover class or change type
+Count,integer,pixel count for this product
+class,character,Coastal Change Analysis Program (C-CAP) change class from 2006 to 2010/11
+class_2006,character,C-CAP 2006 land cover class
+class_2010,character,C-CAP 2010/11 land cover class
+mapped_med,pixel count,median mapped area
+mapped_min,pixel count,2.5% lower mapped area
+mapped_max,pixel count,97.5% upper mapped area
+mapped_ci,pixel count,2.5 to 97.5% mapped area confidence interval (CI)
+estima_med,pixel count,median estimated area
+estima_min,pixel count,2.5% lower estimated area
+estima_max,pixel count,97.5% upper estimated area
+estima_ci,pixel count,2.5 to 97.5% estimated area CI
+total_med,tonnes CO2e/year/pixel,median total flux
+total_min,tonnes CO2e/year/pixel,2.5% lower total flux
+total_max,tonnes CO2e/year/pixel,97.5% upper total flux
+total_ci,tonnes CO2e/year/pixel,2.5 to 97.5% total flux CI
+soil_med,tonnes CO2e/year/pixel,median soil flux
+soil_min,tonnes CO2e/year/pixel,2.5% lower soil flux
+soil_max,tonnes CO2e/year/pixel,97.5% upper soil flux
+soil_ci,tonnes CO2e/year/pixel,2.5 to 97.5% soil flux CI
+bmass_med,tonnes CO2e/year/pixel,median biomass flux
+bmass_min,tonnes CO2e/year/pixel,2.5% lower total flux
+bmass_max,tonnes CO2e/year/pixel,97.5% upper total flux
+bmass_ci,tonnes CO2e/year/pixel,2.5 to 97.5% biomass flux CI
+ch4_med,tonnes CO2e/year/pixel,median methane flux
+ch4_min,tonnes CO2e/year/pixel,2.5% lower methane flux
+ch4_max,tonnes CO2e/year/pixel,97.5% upper methane flux
+ch4_ci,tonnes CO2e/year/pixel,2.5 to 97.5% methane flux CI
